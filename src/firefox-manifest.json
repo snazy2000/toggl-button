@@ -5,11 +5,11 @@
       "strict_min_version": "50.0"
     }
   },
-  "name": "Toggl Button: Productivity & Time Tracker",
-  "short_name": "Toggl Button",
+  "name": "DI's Toggl Button: Productivity & Time Tracker",
+  "short_name": "DI's Toggl Button",
   "manifest_version": 2,
   "description":
-    "Puts a timer into any web tool and allows quick real time productivity tracking with all the data stored on your Toggl account",
+    "DI's Customer Version which adds SF and WebHelpdesk. Toggl puts a timer into any web tool and allows quick real time productivity tracking with all the data stored on your Toggl account",
   "background": {
     "scripts": [
       "scripts/background.js"

@@ -593,6 +593,11 @@ export default {
     url: '*://waffle.io/*',
     name: 'Waffle'
   },
+  'helpdesk.datainterchange.com': {
+    url: '*://helpdesk.datainterchange.com/*',
+    name: 'DI Helpdesk',
+    file: 'webhelpdesk.js'
+  },
   'wordpress.com': {
     url: '*://wordpress.com/*',
     name: 'Wordpress'

@@ -106,11 +106,13 @@ togglbutton.render(
       return description.textContent.trim();
     };
     const getProject = () => {
-      let project = $('[title="Account Name"]');
+      let project = $('.windowViewMode-normal span[title="Project Number"]');
+
       if (!project) project = $('[title="Related To"]');
 
       if (project) {
-        return project.nextSibling.textContent.trim();
+        console.log(project.nextSibling.textContent.trim() + ' (' + description.textContent.trim() + ')');
+        return project.nextSibling.textContent.trim() + ' (' + description.textContent.trim() + ')';
       }
       return getDescription();
     };
